@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Project 1</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='semantic.min.css')}}">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="{{url_for('static', filename='semantic.min.js')}}"></script>
+</head>
+<body>
+<div class="ui stackable grid">
+    <div class="four wide column"></div>
+    <div class="eight wide column">
+        <br/>
+        <h1 class="ui header">Oh the Places You'll Go</h1>
+        <div class="sub header">Santiago Buenahora</div>
+        <h3></h3>
+        <div class="ui divider"></div>
+        <br/><br/>  <!-- Space to breathe *hmm* -->
+        <div class="ui images">
+            <img class='ui centered medium image' src="{{url_for('static', filename='oh.jpg')}}">
+            <img class='ui centered medium image' src="{{url_for('static', filename='arms.gif')}}">
+        </div>
+    </div>
+    <div class="four wide column"></div>
+</div>
+</body>
+</html>
