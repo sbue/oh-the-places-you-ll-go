@@ -1,0 +1,6 @@
+{
+  "name": "places-you-go",
+  "description": "A Data Science app to understand migratory patterns based off college choice",
+  "repository": "https://github.com/leah/hello-flask-heroku",
+  "keywords": ["flask", "heroku"]
+}
